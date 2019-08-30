@@ -134,12 +134,18 @@ def game(opponent):
 
 
 if __name__ == "__main__":
-    game(sys.argv[1])
+    mode = "0"
+    while mode != "1" and mode != "2" and mode != "3":
+        mode = input("1) Player vs. AI     2) Random vs. AI     3) Quit\nEnter option number:  ")
+        if mode == "1":
+            game("PLAYER")
+        elif mode == "2":
+            game("RANDOM")
 
 
 # Potential Future Improvements:
 #   - Select depth (difficulty) of AI before starting a game
-#   - Take input of random / player while running, rather than from the command line
+#   - At least 1 second delay between moves for better visibility
 #   - Make pretty-board potentially look nicer by adding spaces between each column
 #   - AB-pruning and other such optimizations to increase speed of AI
 #   - Improve weight matrix to make AI smarter
