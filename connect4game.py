@@ -148,7 +148,9 @@ if __name__ == "__main__":
 #   - At least 1 second delay between moves for better visibility
 #   - Make pretty-board potentially look nicer by adding spaces between each column
 #   - AB-pruning and other such optimizations to increase speed of AI
-#   - Improve weight matrix to make AI smarter
-#   - More heuristics for AI, besides just win-condition and weight matrix
+#   - Improve or train weight matrix to make AI smarter
+#   - More heuristics for AI, besides just win-condition and weight matrix (favor consecutive pieces?)
+#   - Possible option to increase number of consecutive pieces required for victory from 4
 #   - Ability to play AI against AI, setting separate difficulties for both
 #   - Select board size before a game, rather than a fixed 7x6 board
+#   - Add a graphical interface to game instead of just displaying in terminal
