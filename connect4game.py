@@ -152,5 +152,6 @@ if __name__ == "__main__":
 #   - More heuristics for AI, besides just win-condition and weight matrix (favor consecutive pieces?)
 #   - Possible option to increase number of consecutive pieces required for victory from 4
 #   - Ability to play AI against AI, setting separate difficulties for both
+#   - Ability to play player against player, player against random, etc.
 #   - Select board size before a game, rather than a fixed 7x6 board
 #   - Add a graphical interface to game instead of just displaying in terminal
