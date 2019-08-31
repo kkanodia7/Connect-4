@@ -151,4 +151,4 @@ if __name__ == "__main__":
 #   - Improve weight matrix to make AI smarter
 #   - More heuristics for AI, besides just win-condition and weight matrix
 #   - Ability to play AI against AI, setting separate difficulties for both
-#   - Select board size before a game, rather than a fixed 7x6 board
+#   - Select board size before a game, rather than a fixed 7x7 board
